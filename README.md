@@ -1,6 +1,5 @@
 # Тема №1 
 Ознайомлення з основами програмування
 
-### Лекція 1  
-GoogleDoc <https://docs.google.com/presentation/d/1u8tzut26mJTh_nJ3iqs86fXYuhQ8_JXy3vofrpwCHTc/edit?usp=sharing> 
-PDF       <https://docs.google.com/presentation/d/1u8tzut26mJTh_nJ3iqs86fXYuhQ8_JXy3vofrpwCHTc/edit?usp=sharing>
+### Урок 1 =>[Ознайомлення з основними поняттями](https://github.com/ChItSchool/Topic01/wiki/Урок-1-%5BВступ%5D)
+### Урок 2 =>[Знайомство з операторами в C#](https://github.com/ChItSchool/Topic01/wiki/Урок-2-%5BЗнайомство-з-операторами%5D)
