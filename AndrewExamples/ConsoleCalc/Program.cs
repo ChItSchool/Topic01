@@ -18,19 +18,24 @@ namespace ConsoleCalc
 
             int result;//результат арифметичної операції
 
-            //ДОДАВАННЯ
+            string arithmeticAction; // арифметична дія, яку будемо виконувати
 
-            Console.WriteLine("Введіть доданок 1:");
-            left = Convert.ToInt32(Console.ReadLine());//зчитуємо ліву частину
+            Console.WriteLine("Введіть арифметичну дію:");
+            arithmeticAction = Console.ReadLine();
 
-            Console.WriteLine("Введіть доданок 2");
-            right = Convert.ToInt32(Console.ReadLine());//зчитуємо праву частину
+            if (arithmeticAction == "+")
+            {
+                //ДОДАВАННЯ
+                Console.WriteLine("Введіть доданок 1:");
+                left = Convert.ToInt32(Console.ReadLine());//зчитуємо ліву частину
 
-            result = left + right;
-            Console.WriteLine(left + " + " + right + " = " + result);
+                Console.WriteLine("Введіть доданок 2");
+                right = Convert.ToInt32(Console.ReadLine());//зчитуємо праву частину
 
+                result = left + right;
+                Console.WriteLine(left + " + " + right + " = " + result);
+            }
             Console.ReadKey();
-
         }//Кінець виконання програми 
     }
 }
