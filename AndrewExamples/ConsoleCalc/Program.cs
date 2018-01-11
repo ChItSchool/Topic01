@@ -22,10 +22,10 @@ namespace ConsoleCalc
 
             Console.WriteLine("Введіть арифметичну дію:");
             arithmeticAction = Console.ReadLine();
-
+           
+            //ДОДАВАННЯ
             if (arithmeticAction == "+")
             {
-                //ДОДАВАННЯ
                 Console.WriteLine("Введіть доданок 1:");
                 left = Convert.ToInt32(Console.ReadLine());//зчитуємо ліву частину
 
@@ -35,6 +35,33 @@ namespace ConsoleCalc
                 result = left + right;
                 Console.WriteLine(left + " + " + right + " = " + result);
             }
+
+            //ВІДНІМАННЯ
+            if (arithmeticAction == "-")
+            {
+                Console.WriteLine("Введіть зменшуване:");
+                left = Convert.ToInt32(Console.ReadLine());//зчитуємо ліву частину
+
+                Console.WriteLine("Введіть від'ємник:");
+                right = Convert.ToInt32(Console.ReadLine());//зчитуємо праву частину
+
+                result = left - right;
+                Console.WriteLine(left + " - " + right + " = " + result);
+            }
+
+            //МНОЖЕННЯ
+            if (arithmeticAction == "*")
+            {
+                Console.WriteLine("Введіть множник 1:");
+                left = Convert.ToInt32(Console.ReadLine());//зчитуємо ліву частину
+
+                Console.WriteLine("Введіть множник 2:");
+                right = Convert.ToInt32(Console.ReadLine());//зчитуємо праву частину
+
+                result = left * right;
+                Console.WriteLine(left + " * " + right + " = " + result);
+            }
+
             Console.ReadKey();
         }//Кінець виконання програми 
     }
